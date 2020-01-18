@@ -1,6 +1,6 @@
 Name: 		perl-Sort-Versions
 Version: 	1.5
-Release: 	21%{?dist}
+Release: 	22%{?dist}
 Summary: 	Perl module for sorting of revision-like numbers 
 License: 	GPL+ or Artistic
 Group: 		Development/Libraries
@@ -56,6 +56,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.5-22
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.5-21
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
